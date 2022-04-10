@@ -1,0 +1,47 @@
+
+@import url(../vendor/fonts/font-face.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__title/profile__title.css);
+@import url(../blocks/profile/__subtitle/profile__subtitle.css);
+@import url(../blocks/profile/__edit-button/profile__edit-button.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);   
+@import url(../blocks/elements/elements.css);
+@import url(../blocks/elements/__list/elements__list.css);
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__pic/element__pic.css);
+@import url(../blocks/element/__info/element__info.css);
+@import url(../blocks/element/__text/element__text.css);
+@import url(../blocks/element/__like-button/element__like-button.css);
+
+
+@import url(../blocks/footer__text/footer__text.css);
+
+
+/*POP-UP*/
+@import url(../blocks/popup-modal/popup-modal.css);
+@import url(../blocks/popup-modal/__text/popup-modal__text.css);
+@import url(../blocks/popup-modal/__button/popup-modal__button.css);
+@import url(../blocks/popup-modal/__close/popup-modal__close.css);
+
+@import url(../blocks/popup-content/popup-content.css);
+@import url(../blocks/popup-content/__input/popup-content__input.css);
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+.element__like-button{
+    background: none;
+    font-size: 25px;
+    padding: 0;
+    transition: opacity 0.2s ease-in;
+    cursor: pointer;
+    align-self: center;
+    outline: none;  
+    border: none;
+}
+
+.element__like-button:hover{
+    opacity: 0.5;
+}

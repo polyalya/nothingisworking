@@ -1,0 +1,41 @@
+/*PROFILE*/
+
+.profile{
+    max-width: 880px;
+    margin: 0 200px 51px 200px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 120px 336px auto 19vh;
+    grid-template-columns: 120px 336px auto 19vh;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+        grid-template-areas: 
+    "logo info . add";
+}
+
+@media screen and (max-width: 1279px) and (min-width: 769px) {
+    .profile{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 320px){
+    .profile{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        max-width: 282px;
+        width: 100%;
+        margin: 0px auto 36px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            grid-template-areas: 
+        "logo"
+        "info"
+        "."
+        "add";
+    }
+}

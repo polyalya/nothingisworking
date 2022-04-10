@@ -1,0 +1,25 @@
+.popup-modal__close{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border: none;
+    top: calc(-26px - 18px);
+    left: 100%;
+    margin-bottom: 8px;
+    transition: opacity 0.2s ease-in;
+    background-color: transparent;
+}
+
+
+.popup-modal__close:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 540px) and (min-width: 320px) {
+    .popup-modal__close{
+        width: 20px;
+        height: 20px;
+        left: 85%;
+    }
+}

@@ -1,0 +1,23 @@
+/*FOOTER*/
+.footer__text{
+    max-width: 318px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #545454;
+    margin-left: 200px;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+@media (max-width: 1280px){ 
+    .footer__text{ 
+        max-width: calc(282px + (318 - 282) * ((100vw - 320px) / (1280 - 320)));
+        margin-left: calc(20px + (200 - 20) * ((100vw - 320px) / (1280 - 320)));
+        margin-bottom: calc(30px + (60 - 30) * ((100vw - 320px) / (1280 - 320)));
+        font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1280 - 320)));
+        line-height: calc(17px + (22 - 17) * ((100vw - 320px) / (1280 - 320)));
+    }
+}  

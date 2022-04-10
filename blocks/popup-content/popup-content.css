@@ -1,0 +1,23 @@
+.popup-content{
+    width: 430px;
+    height: 330px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width: 540px) and (min-width: 300px) {
+    .popup-content{
+        position: fixed;
+        max-width: 282px;
+        width: 100%;
+        z-index: 5;
+    }
+}
